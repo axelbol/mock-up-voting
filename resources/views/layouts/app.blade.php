@@ -50,7 +50,22 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae quisquam, ratione corrupti veritatis voluptates accusamus est, odio dolor nisi, tempora ullam quasi deserunt ea doloremque harum. Perspiciatis magni pariatur nesciunt? Soluta minus vitae aliquam modi quasi doloremque architecto illo incidunt itaque pariatur deleniti quae tenetur, magnam reiciendis consequatur perferendis est hic ullam omnis! Eos voluptate excepturi perferendis hic provident ex nisi? Rerum quod et provident maxime hic possimus dolorem libero adipisci est amet fuga suscipit, ad quidem doloribus consequuntur, impedit animi. Fugit aliquid id dolores officiis dolor ratione. Rerum perferendis praesentium tenetur voluptatem expedita est ipsam ex excepturi quae.
             </div>
             <div class="w-175">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatum veritatis omnis assumenda dignissimos consequatur quae, exercitationem debitis non neque dolores dolor labore illum aspernatur suscipit nostrum, iure nisi eius, fuga deserunt eligendi officia enim obcaecati. Fugiat molestiae repellat minima iusto qui libero sequi quidem sint nam a natus modi voluptas vero tempore dolores, numquam voluptatem voluptates accusantium atque magnam iure. Dolorum libero provident quo dolor exercitationem, aspernatur cum, velit placeat impedit cumque magni, dolorem nam quia? Tenetur expedita adipisci a doloribus aliquam animi, dignissimos eligendi, dicta illo eaque dolores assumenda quam minima rem est aliquid ea hic sed corrupti suscipit inventore autem debitis quae at? Obcaecati nulla ex sapiente impedit, eos quasi, at alias corporis libero aliquid facere cum in unde et provident hic quae inventore recusandae, voluptatem quaerat. Quis ipsum delectus eveniet esse illum nulla consequatur nam quasi amet eligendi, exercitationem corrupti porro sapiente cumque accusamus itaque quos.
+                <nav class="flex items-center justify-between text-xs">
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="#" class="border-b-4 pb-3 border-blue">All Ideas (43)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Considering (9)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">In Progress (1)</a></li>
+                    </ul>
+
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Implementing (10)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150 ease-in border-b-4 pb-3 hover:border-blue">Closed (33)</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mt-8">
+                    {{ $slot }}
+                </div>
             </div>
         </main>
     </body>
